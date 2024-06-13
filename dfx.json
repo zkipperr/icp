@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "canisters": {
+    "linkedup": {
+      "type": "motoko",
+      "main": "src/linkedup/main.mo"
+    },
+    "connected": {
+      "type": "motoko",
+      "main": "src/connected/main.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  }
+}
